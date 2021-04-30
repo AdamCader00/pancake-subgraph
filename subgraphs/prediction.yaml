@@ -4,7 +4,7 @@ repository: https://github.com/pancakeswap
 schema:
   file: ./prediction.graphql
 dataSources:
-  - kind: ethereum/contract
+  - kind: bsc/contract
     name: Prediction
     network: bsc
     source:
